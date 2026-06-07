@@ -80,31 +80,8 @@ Local:   http://localhost:5173/
 Al abrir esa URL en el navegador, la aplicación queda funcionando.
 
 ## Estructura del proyecto
-pasteleria/
--backend/  
---- conexion.php
----ingredientes.php
----pasteles.php
----pastel_ingredientes.php
----reporte.php
--frontend/     Aplicación Vue
---src/
----App.vue
----main.js
---composables/
----useCrud.js
---router/
----index.js
---views/
----IngredientesView.vue
----PastelesView.vue
----PastelDetalleView.vue
----ReporteView.vue
---package.json
---vite.config.js
---database/
----pasteleria.sql
---screnshot/
+La carpeta principal pasteleria contiene tres subcarpetas. La carpeta backend tiene los archivos PHP que conforman la API: conexion.php, ingredientes.php, pasteles.php, pastel_ingredientes.php y reporte.php. La carpeta frontend contiene la aplicación Vue con sus archivos App.vue, main.js, useCrud.js dentro de composables, index.js dentro de router, y las vistas IngredientesView.vue, PastelesView.vue, PastelDetalleView.vue y ReporteView.vue dentro de views. La carpeta database contiene el archivo pasteleria.sql
+
 La carpeta `node_modules/` no se incluye en el repositorio por su tamaño y porque se regenera con `npm install`. Por esta razón es importante ejecutar ese comando después de clonar.
 
 ## Sobre el modelo
