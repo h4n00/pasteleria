@@ -121,7 +121,7 @@ El frontend Vue corre en el puerto 5173. Cuando se realiza una acción en la int
 
 ![Ingredientes](screnshot/captura1.png)
 
-![Pasteles](screnshot/captura2.png)
+![Pasteles](screnshot/Captura2.png)
 
 ![Reporte](screnshot/captura3.png)
 
